@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../src/styles/output.css">
+        <!-- <link rel="icon" type="image/png" href="PLACEHOLDER"/> -->
+        <script defer src="login.js"></script>
+    </head>
+
+    <body class="w-full h-full justify-center items-center flex">
+        <main id="main-holder" class="w-1/2 h-3/4 grid justify-center items-center bg-white border-purple-300 border-2 shadow-md">
+            <h1 id="login-header">Login</h1>
+        
+            <div id="login-error-msg-holder" class="w-full h-full grid justify-center items-center ">
+                <p id="login-error-msg" class="w-1/5 text-center m-0 p-5 text-xs font-bold bg-red-100 text-red-800 border-red-800 opacity-0">Invalid username <span id="error-msg-second-line" class="block">and/or password</span></p>
+            </div>
+            
+            <form id="login-form" class="self-start grid justify-center items-center">
+                <input type="text" name="username" id="username-field" class="placeholder-gray-600 border-0 border-b-2 mb-10 outline-none py-5" placeholder="Username">
+                <input type="password" name="password" id="password-field" class="placeholder-gray-600 border-0 border-b-2 mb-10 outline-none py-5" placeholder="Password">
+                <input type="submit" value="Login" id="login-form-submit" class="w-full p-7 border-none text-white font-bold bg-purple-500 cursor-pointer outline-none">
+            </form>
+        
+        </main>
+    </body>
+
+</html>
