@@ -9,11 +9,17 @@
         <script defer src="../src/scripts/login.js"></script>
     </head>
 
-    <body class="flex w-full h-full justify-center items-center">
-        <main id="main-holder" class="w-1/2 h-3/4 grid justify-center items-center bg-white border-purple-300 border-2 shadow-md">
-            <h1 id="login-header">Login</h1>
+    <body class="flex w-full h-full justify-center items-center bg-purple-200">
+
+        <nav id="navbar" class="bg-gradient-to-r from-purple-500 to-purple-200 flex flex-row justify-start items-start p-2 gap-8 z-top fixed top-0 left-0 w-full">
+			<a class="text-sm font-imfellenglish" href="/">Home</a>
+		</nav>
+
+
+        <main id="main-holder" class="mt-20 w-1/2 h-3/4 grid justify-center items-center bg-white border-purple-300 border-2 shadow-md">
+            <h1 id="login-header" class="pt-5">Login</h1>
         
-            <div id="login-error-msg-holder" class="w-full h-full grid justify-center items-center ">
+            <div id="login-error-msg-holder" class="w-full h-full justify-center items-center ">
                 <p id="login-error-msg" class="text-center m-0 p-5 text-xs font-bold bg-red-100 text-red-800 border-red-800 opacity-0">Invalid username <span id="error-msg-second-line" class="block">and/or password</span></p>
             </div>
             
