@@ -13,6 +13,8 @@ loginButton.addEventListener("click", (e) => {
         alert("You have successfully logged in."); 
         sessionStorage.setItem('isLoggedIn', 'true');
         location.reload();
+        window.location.replace("/");
+        
     } else {
         loginErrorMsg.classList.remove("opacity-0");
         loginErrorMsg.classList.add("opacity-100");
