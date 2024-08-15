@@ -2,6 +2,8 @@ const post = document.getElementById('post-blog-option');
 const login = document.getElementById('login-button');
 const logout = document.getElementById('logout-button');
 
+// for index.html
+
 function checkLoginStatus() {
     try {
        
