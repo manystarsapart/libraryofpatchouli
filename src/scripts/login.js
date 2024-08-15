@@ -11,7 +11,7 @@ loginButton.addEventListener("click", (e) => {
         loginErrorMsg.classList.add("opacity-0");
         loginErrorMsg.classList.remove("opacity-100");
         alert("You have successfully logged in."); 
-        sessionStorage.setItem('isLoggedIn', 'true');
+        localStorage.setItem('isLoggedIn', 'true'); // localstorage instead of sessionstorage. more persistent
         location.reload();
         window.location.replace("/");
         
