@@ -5,3 +5,4 @@ import { BlogModule } from './blogmodule.js';
 document.addEventListener('DOMContentLoaded', () => {
   BlogModule.renderEntries('blog-container');
 });
+
