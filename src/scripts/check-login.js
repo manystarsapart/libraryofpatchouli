@@ -46,3 +46,4 @@ if (logout) {
     logout.addEventListener('click', handleLogout);
 }
 document.addEventListener('DOMContentLoaded', checkLoginStatus);
+
