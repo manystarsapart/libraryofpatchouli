@@ -1,5 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 
+const plugin = require('tailwindcss/plugin');
+
 module.exports = {
   content: ["../index.html","../pages/*.{html,js}"],
   presets: [],
@@ -160,7 +162,6 @@ module.exports = {
       fuchsia: colors.fuchsia,
       pink: colors.pink,
       rose: colors.rose,
-      'customcolor':"#FFFFFF",
 
     }),
     columns: {
@@ -325,7 +326,8 @@ module.exports = {
         'monospace',
       ],
       moontime: ["Moontime", "serif"],
-      imfellenglish: ["IM Fell English", "serif"],
+      imfellenglish: ["IMFellEnglish", "serif"],
+      pressstart2p: ["PressStart2P", "'Courier New'"],
     },
     fontSize: {
       xs: ['0.75rem', { lineHeight: '1rem' }],
@@ -1066,5 +1068,23 @@ module.exports = {
       'bottom':'-100000',
     },
   },
-  plugins: [],
+  plugins: [
+    plugin(function ({ matchUtilities, theme }) {
+      matchUtilities({
+        'font-outline': (value) => ({
+          '-webkit-text-stroke-width': value,
+          '-webkit-text-stroke-color': "#441d04",
+        }),
+      }, {
+        values: {
+          thin: '1px',
+          thick: '2px',
+          smtitle: '0.1rem',
+          mdtitle: '0.2rem',
+          lgtitle: '0.3rem',
+        },
+      });
+    }),
+  ],
 }
+

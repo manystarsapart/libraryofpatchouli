@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "Moontime";
+    src: url("../../assets/fonts/MoonTime-Regular.ttf");
+};
+
+@font-face {
+    font-family: "IMFellEnglish";
+    src: url("../../assets/fonts/IMFellEnglishSC-Regular.ttf");
+};
+
+@font-face {
+    font-family: "PressStart2P";
+    src: url("../../assets/fonts/PressStart2P-Regular.ttf");
+};
