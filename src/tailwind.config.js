@@ -1079,9 +1079,11 @@ module.exports = {
         values: {
           thin: '1px',
           thick: '2px',
+          xstitle: '0.05rem',
           smtitle: '0.1rem',
           mdtitle: '0.2rem',
           lgtitle: '0.3rem',
+          
         },
       });
     }),
