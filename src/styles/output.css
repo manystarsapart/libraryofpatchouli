@@ -588,6 +588,10 @@ video {
   }
 }
 
+.static {
+  position: static;
+}
+
 .fixed {
   position: fixed;
 }
@@ -616,6 +620,14 @@ video {
   top: 23%;
 }
 
+.top-1\/2 {
+  top: 50%;
+}
+
+.left-1\/2 {
+  left: 50%;
+}
+
 .z-top {
   z-index: 100000;
 }
@@ -625,8 +637,16 @@ video {
   margin-right: auto;
 }
 
+.mr-\[3px\] {
+  margin-right: 3px;
+}
+
 .block {
   display: block;
+}
+
+.inline-block {
+  display: inline-block;
 }
 
 .flex {
@@ -643,6 +663,15 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.rotate-45 {
+  --tw-rotate: 45deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .flex-row {
@@ -665,6 +694,23 @@ video {
   gap: 2rem;
 }
 
+.border {
+  border-width: 1px;
+}
+
+.border-l-0 {
+  border-left-width: 0px;
+}
+
+.border-t-0 {
+  border-top-width: 0px;
+}
+
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity, 1));
+}
+
 .bg-purple-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(243 232 255 / var(--tw-bg-opacity, 1));
@@ -676,6 +722,10 @@ video {
 
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.bg-\[url\(\'\.\.\/\.\/assets\/images\/libwall\.png\'\)\] {
+  background-image: url('.././assets/images/libwall.png');
 }
 
 .from-purple-500 {
@@ -698,6 +748,10 @@ video {
 
 .p-2 {
   padding: 0.5rem;
+}
+
+.p-\[3px\] {
+  padding: 3px;
 }
 
 .px-4 {
@@ -786,6 +840,10 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:h-20 {
+    height: 5rem;
+  }
+
   .md\:text-5xl {
     font-size: 3rem;
     line-height: 1;
@@ -798,6 +856,14 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:h-20 {
+    height: 5rem;
+  }
+
+  .lg\:h-32 {
+    height: 8rem;
+  }
+
   .lg\:text-7xl {
     font-size: 4.5rem;
     line-height: 1;
