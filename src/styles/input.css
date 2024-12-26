@@ -16,3 +16,8 @@
     font-family: "PressStart2P";
     src: url("../../assets/fonts/PressStart2P-Regular.ttf");
 };
+
+@font-face {
+    font-family: "BethEllen";
+    src: url("../../assets/fonts/BethEllen-Regular.ttf");
+};

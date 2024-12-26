@@ -329,6 +329,7 @@ module.exports = {
       moontime: ["Moontime", "serif"],
       imfellenglish: ["IMFellEnglish", "serif"],
       pressstart2p: ["PressStart2P", "'Courier New'"],
+      bethellen: ["BethEllen","Serif"]
     },
     fontSize: {
       xs: ['0.75rem', { lineHeight: '1rem' }],

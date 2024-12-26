@@ -649,20 +649,12 @@ video {
   display: none;
 }
 
-.h-full {
-  height: 100%;
-}
-
 .h-screen {
   height: 100vh;
 }
 
 .w-full {
   width: 100%;
-}
-
-.w-screen {
-  width: 100vw;
 }
 
 .flex-row {
@@ -720,18 +712,9 @@ video {
   background-position: center;
 }
 
-.bg-repeat {
-  background-repeat: repeat;
-}
-
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
-}
-
-.object-fill {
-  -o-object-fit: fill;
-     object-fit: fill;
 }
 
 .p-2 {
@@ -766,6 +749,10 @@ video {
 
 .font-pressstart2p {
   font-family: PressStart2P, 'Courier New';
+}
+
+.font-bethellen {
+  font-family: BethEllen, Serif;
 }
 
 .text-2xl {
@@ -831,6 +818,12 @@ video {
   font-family: "PressStart2P";
 
   src: url("../../assets/fonts/PressStart2P-Regular.ttf");
+}
+
+@font-face {
+  font-family: "BethEllen";
+
+  src: url("../../assets/fonts/BethEllen-Regular.ttf");
 }
 
 @media (min-width: 768px) {

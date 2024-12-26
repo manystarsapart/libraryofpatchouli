@@ -2,6 +2,8 @@
     {
         "id": 1,
         "title": "Onimai: I'm Now Your Sister!",
-        "path": "./cin1.pdf"
+        "alt-title": "お兄ちゃんはおしまい!",
+        "alt-title-logogram": true,
+        "path": "cinema/cin1.pdf"
     }
 ]

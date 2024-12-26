@@ -1,43 +1,55 @@
 [
     {
         "id": 1,
-        "title": "Garden of Evening Mists",
-        "author":"Tan Twan Eng",
-        "path": "./lib1.pdf"
+        "title": "The Garden Of Evening Mists",
+        "alt-title": "",
+        "alt-title-logogram": false,
+        "author": "Tan Twan Eng",
+        "path": "library/lib1.pdf"
     },
     
     {
         "id": 2,
         "title": "Flowers For Algernon",
-        "author":"Daniel Kayes",
-        "path": "./lib2.pdf"
+        "alt-title": "",
+        "alt-title-logogram": false,
+        "author": "Daniel Kayes",
+        "path": "library/lib2.pdf"
     },
 
     {
         "id": 3,
         "title": "Hell Screen",
-        "author":"Ryuunosuke Akutagawa",
-        "path": "./lib3.pdf"
+        "alt-title": "地獄変",
+        "alt-title-logogram": true,
+        "author": "Ryuunosuke Akutagawa",
+        "path": "library/lib3.pdf"
     },
 
     {
         "id": 4,
         "title": "The Spider's Thread",
-        "author":"Ryuunosuke Akutagawa",
-        "path": "./lib4.pdf"
+        "alt-title": "蜘蛛の糸",
+        "alt-title-logogram": true,
+        "author": "Ryuunosuke Akutagawa",
+        "path": "library/lib4.pdf"
     },
 
     {
         "id": 5,
         "title": "No Longer Human",
-        "author":"Osamu Dazai",
-        "path": "./lib5.pdf"
+        "alt-title": "人間失格",
+        "alt-title-logogram": true,
+        "author": "Osamu Dazai",
+        "path": "library/lib5.pdf"
     },
 
     {
         "id": 6,
         "title": "Lonely Castle In The Mirror",
-        "author":"Mizuki Tsujimura",
-        "path": "./lib6.pdf"
+        "alt-title": "かがみの孤城",
+        "alt-title-logogram": true,
+        "author": "Mizuki Tsujimura",
+        "path": "library/lib6.pdf"
     }
 ]
