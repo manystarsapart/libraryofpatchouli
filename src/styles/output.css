@@ -661,6 +661,10 @@ video {
   width: 100%;
 }
 
+.w-screen {
+  width: 100vw;
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -716,6 +720,20 @@ video {
   background-position: center;
 }
 
+.bg-repeat {
+  background-repeat: repeat;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.object-fill {
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
 .p-2 {
   padding: 0.5rem;
 }
@@ -755,9 +773,9 @@ video {
   line-height: 2rem;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-8xl {
@@ -768,11 +786,6 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .tracking-tight {
@@ -849,10 +862,6 @@ video {
 @media (min-width: 1024px) {
   .lg\:top-\[23\%\] {
     top: 23%;
-  }
-
-  .lg\:top-\[20\%\] {
-    top: 20%;
   }
 
   .lg\:text-4xl {

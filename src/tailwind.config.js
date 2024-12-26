@@ -3,7 +3,8 @@
 const plugin = require('tailwindcss/plugin');
 
 module.exports = {
-  content: ["../index.html","../pages/*.{html,js}"],
+  // content: ["../index.html","../pages/*.{html,js}"],
+  content: ["../*.{html,js}"],
   presets: [],
   darkMode: 'class', // or 'media' if we want it to be auto (according to user settings)
   theme: {
