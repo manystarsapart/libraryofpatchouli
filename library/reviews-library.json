@@ -5,7 +5,8 @@
         "alt-title": "",
         "alt-title-logogram": false,
         "author": "Tan Twan Eng",
-        "path": "library/lib1.pdf"
+        "path": "library/lib1.pdf",
+        "quote":"I stop when i see the pair of statues, Mnemosyne and her nameless twin sister. The Goddess of Memory has remained unchanged but, to my dismay, her sister's face is almost worn smooth, her features rubbed away."
     },
     
     {
@@ -14,7 +15,8 @@
         "alt-title": "",
         "alt-title-logogram": false,
         "author": "Daniel Kayes",
-        "path": "library/lib2.pdf"
+        "path": "library/lib2.pdf",
+        "quote":"Please... please... dont let me forget how to reed and rite..."
     },
 
     {
@@ -23,7 +25,8 @@
         "alt-title": "地獄変",
         "alt-title-logogram": true,
         "author": "Ryuunosuke Akutagawa",
-        "path": "library/lib3.pdf"
+        "path": "library/lib3.pdf",
+        "quote":"I could have sworn that the man's eyes were no longer watching his daughter dying in agony, that instead the gorgeous colors of flames and the sight of a woman suffering in them were giving him joy beyond measure."
     },
 
     {
@@ -32,7 +35,8 @@
         "alt-title": "蜘蛛の糸",
         "alt-title-logogram": true,
         "author": "Ryuunosuke Akutagawa",
-        "path": "library/lib4.pdf"
+        "path": "library/lib4.pdf",
+        "quote":"Listen to me, you sinners! This spider thread is mine! Who said you could climb it? Get off! Get off!"
     },
 
     {
@@ -41,7 +45,8 @@
         "alt-title": "人間失格",
         "alt-title-logogram": true,
         "author": "Osamu Dazai",
-        "path": "library/lib5.pdf"
+        "path": "library/lib5.pdf",
+        "quote":"Now I have neither happiness nor unhappiness. Everything passes."
     },
 
     {
@@ -50,6 +55,17 @@
         "alt-title": "かがみの孤城",
         "alt-title-logogram": true,
         "author": "Mizuki Tsujimura",
-        "path": "library/lib6.pdf"
+        "path": "library/lib6.pdf",
+        "quote":"I mean, you're battling every single day, aren't you?"
+    },
+
+    {
+        "id": 7,
+        "title": "Girls' Last Tour",
+        "alt-title": "少女終末旅行",
+        "alt-title-logogram": true,
+        "author": "Tsukumizu",
+        "path": "library/lib7.pdf",
+        "quote":"Befriending despair."
     }
 ]

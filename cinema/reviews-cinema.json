@@ -5,5 +5,13 @@
         "alt-title": "お兄ちゃんはおしまい!",
         "alt-title-logogram": true,
         "path": "cinema/cin1.pdf"
+    },
+
+    {
+        "id": 2,
+        "title": "The Place Promised in Our Early Days",
+        "alt-title": "雲のむこう、約束の場所",
+        "alt-title-logogram": true,
+        "path": "cinema/cin2.pdf"
     }
 ]
