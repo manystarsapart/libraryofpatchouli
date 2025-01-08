@@ -616,6 +616,10 @@ video {
   left: 10%;
 }
 
+.right-\[20\%\] {
+  right: 20%;
+}
+
 .right-\[40\%\] {
   right: 40%;
 }
@@ -626,6 +630,14 @@ video {
 
 .top-\[5\%\] {
   top: 5%;
+}
+
+.top-\[50\%\] {
+  top: 50%;
+}
+
+.right-\[10\%\] {
+  right: 10%;
 }
 
 .z-top {
@@ -737,6 +749,10 @@ video {
 
 .text-center {
   text-align: center;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .font-imfellenglish {
