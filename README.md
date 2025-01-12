@@ -11,3 +11,8 @@ TODO
 9. complete navbar navigation buttons (archives & just read & potential future pages)
 10. ADD QUERY STRING TO THIS REDIRECT: something like reader.html?review=just-read
 11. FUTURE: about page for libraryofpatchouli
+
+
+
+note to self:
+added LFS to this repo. i think i unintentionally made it apply to all pdfs instead of just the one big file (mutterings/mut1.pdf) i want to track so i will need to rectify that
