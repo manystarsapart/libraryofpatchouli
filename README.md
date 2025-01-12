@@ -9,4 +9,5 @@ TODO
 7. explore either PDF.js or viewer.js is better for review.html rendering
 8. add footers for all & acknowledgement in footer
 9. complete navbar navigation buttons (archives & just read & potential future pages)
-10. FUTURE: about page for libraryofpatchouli
+10. ADD QUERY STRING TO THIS REDIRECT: something like reader.html?review=just-read
+11. FUTURE: about page for libraryofpatchouli
